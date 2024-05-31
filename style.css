@@ -1,0 +1,69 @@
+body {
+    font-family: Monaco, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.flashcards {
+    position: relative;
+    height: 200px;
+}
+
+.flashcard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-sizing: border-box;
+    display: none;
+}
+
+.flashcard.active {
+    display: block;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.navigation button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background: #555;
+}
